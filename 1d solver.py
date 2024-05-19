@@ -45,12 +45,12 @@ while counter < time :
 
     counter += dt
 
-    print("t: {:.3f} [s], Average temperature: {:.2f} Celcius".format(counter, np.average(u)))
+    print("t: {:.3f} [s], Average temperature: {:.2f} Celsius".format(counter, np.average(u)))
 
     # visualisation
 
     pcm.set_array([u])
-    axis.set_title("Distribution at t: {:.3f} [s].".format(counter))
+    axis.set_title("Distribution at t: {:.3f} s.".format(counter))
     plt.pause(0.01)
 
 
