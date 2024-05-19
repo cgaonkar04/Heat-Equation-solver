@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # System params
 
-a = 110
+a = 110 #heat diffusivity
 length = 50 #mm
 time = 4 #se
 nodes = 40
